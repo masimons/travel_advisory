@@ -1,0 +1,1 @@
+web: bundle exec ruby travel_advisory.rb

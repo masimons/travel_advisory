@@ -1,0 +1,7 @@
+gem 'httparty'
+gem 'pp'
+gem 'redis-ruby'
+gem 'json'
+gem 'sinatra'
+gem 'twilio-ruby'
+gem 'xml-simple'
