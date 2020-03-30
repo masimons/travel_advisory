@@ -7,7 +7,7 @@ require 'sinatra'
 require 'twilio-ruby'
 require 'xmlsimple'
 
-redis = Redis.new
+redis = Redis.new(url: ENV['REDIS_URL'])
 
 ########## SEED SCRIPT ##########################################################################
 
@@ -31,7 +31,7 @@ end
 
 
 # blah = JSON.parse(redis.get('bhutan'))
-pp JSON.parse(redis.get('italy'))
+# pp JSON.parse(redis.get('italy'))
 
 # pp "#{blah['title']} #{blah['link']}"
 
