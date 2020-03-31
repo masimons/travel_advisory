@@ -1,6 +1,5 @@
 gem 'httparty'
-gem 'pp'
-gem 'redis-ruby'
+gem 'redis'
 gem 'json'
 gem 'sinatra'
 gem 'twilio-ruby'
